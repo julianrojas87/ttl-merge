@@ -26,7 +26,7 @@ Options:
 - Merge 2 files using given prefixes:  
 
   ```bash
-  ttl-merge -i file1.ttl file2.ttl -p path/to/prefixes/file > merged.ttl
+  ttl-merge -i file1.ttl file2.ttl -p path/to/prefixes/file.json > merged.ttl
   ```
 
 - Merge all files in folder except one:
