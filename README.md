@@ -12,7 +12,7 @@ npm install -g ttl-merge
 
 Use `ttl-merge -h` to see the options:
 
-```bash
+```
 Options:
   -V, --version                 output the version number
   -i, --inputs <inputs...>      specify the path of turtle files or folders containing ONLY turtle files
