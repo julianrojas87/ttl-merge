@@ -1,6 +1,6 @@
 {
   "name": "ttl-merge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "A CLI to merge multiple turtle files into one file",
   "main": "index.js",
