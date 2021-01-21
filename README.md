@@ -16,7 +16,7 @@ Use `ttl-merge -h` to see the options:
 ```
 Options:
   -V, --version                 output the version number
-  -i, --inputs <inputs...>      specify the path of turtle files or folders containing ONLY turtle files
+  -i, --inputs <inputs...>      specify the path of turtle files or folders containing turtle files
   -e, --except [exceptions...]  set of files in input folders that won't be merged
   -p, --prefixes <prefixes>     path to JSON file containing the prefixes to be applied, e.g., { "ex": "http://example.org#" }
   -h, --help                    display help for command
@@ -30,7 +30,7 @@ Options:
   ttl-merge -i file1.ttl file2.ttl -p path/to/prefixes/file.json > merged.ttl
   ```
 
-- Merge all files in folder except one:
+- Merge all files in `folder` (and its subfolders) except one specific file:
 
   ```bash
   ttl-merge -i /path/to/folder -e path/to/skipped/file.ttl > merged.ttl
