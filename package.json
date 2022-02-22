@@ -18,6 +18,9 @@
     "turtle",
     "RDF"
   ],
+  "engines": {
+    "node": ">=13"
+  },
   "author": "Julian Rojas",
   "license": "MIT",
   "dependencies": {
